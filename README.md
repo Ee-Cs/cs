@@ -12,6 +12,31 @@ https://github.com/Ee-Cs/cs/blob/main/README.md
       "geometry": {
         "coordinates": [
           [
+            21.02125126152805,
+            52.24896293560445
+          ],
+          [
+            35.22953487768672,
+            31.778438530590407
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}
+```
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
             [
               20.97034680155963,
               52.25700519741804
