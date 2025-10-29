@@ -1,4 +1,32 @@
+# One Hash Line # comment
+## Two Hashes Line
+### Three Hashes Line
+#### Four Hashes Line
+##### Five Hashes Line
+Line Without Hashes
+
+Line Without Hashes
+
+
 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟
+🟥🟩🟦🟪🟨🟧🟫⬜⬛🔲🔳
+🔴🟢🔵🟣🟡🟠🟤⚪⚫
+❤️💚💙💜💛🧡🤎🤍🖤
+⬇️🔽⏬⯆⮟⏷🡇🠟🠋🠇🡻🡫🡣▼▽🔻
+➡️▶️⏩⯈⮞⏵🡆🠞🠊🠆🡺🡪🡢▶▷🔶🔸◆
+⬅️◀️⏪⯇⮜⏴🡄🠜🠈🠄🡸🡨🡠◀◁🔷🔹◇
+⬆️🔼⏫⯅⮝⏶🡅🠝🠉🠅🡹🡩🡡▲△🔺🛆
+✔️🆗❎❌✖️➕➖⭕
+▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+1234567890
+𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵𝟬
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳
+𝐀𝐁𝐂𝐃𝐄𝐅𝐆𝐇𝐈𝐉𝐊𝐋𝐌𝐍𝐎𝐏𝐐𝐑𝐒𝐓𝐔𝐕𝐖𝐗𝐘𝐙
+𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃
+𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩
+▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 
 https://github.com/Ee-Cs/cs/blob/main/README.md
 
@@ -248,7 +276,6 @@ https://github.com/Ee-Cs/cs/blob/main/README.md
 }
 ```
 
-
 <details>
 <summary>Learning GitHub Flavored Markdown</summary>
 
@@ -265,3 +292,8 @@ CSS styles are not active in GitHub :warning:
 <span style="color:brown">brown</span>  
 <span style="color:gray">gray</span>  
 </details>
+
+To download `SHASUMS256.txt` using `curl`:
+```bash
+curl -O https://nodejs.org/dist/vx.y.z/SHASUMS256.txt
+```
