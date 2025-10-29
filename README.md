@@ -11,9 +11,6 @@ Line *Without* Hashes
 <a name="my-custom-anchor-point"></a>
 GitHub Docs [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-`#0969DA`
-
 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 \
 🟥🟩🟦🟪🟨🟧🟫⬜⬛🔲🔳 \
 🔴🟢🔵🟣🟡🟠🟤⚪⚫ \
@@ -288,21 +285,6 @@ https://github.com/Ee-Cs/cs/blob/main/README.md
 <details>
 <summary>Learning GitHub Flavored Markdown</summary>
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
 Hard line break - add \ or two spaces at the end of line  
 
 The visualization of the color is only supported in issues, pull requests, and discussions. \
@@ -320,9 +302,24 @@ CSS styles are not active in GitHub :warning:
 <span style="color:gray">gray</span>  
 </details>
 
-[A link to that custom anchor](#my-custom-anchor-point)
-
 To download `SHASUMS256.txt` using `curl`:
 ```bash
 curl -O https://nodejs.org/dist/vx.y.z/SHASUMS256.txt
 ```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+[A link to that custom anchor](#my-custom-anchor-point)
+
