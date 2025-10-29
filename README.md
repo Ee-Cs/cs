@@ -9,9 +9,11 @@ Line *Without* Hashes
 
 <!-- This content will not appear in the rendered Markdown -->
 <a name="my-custom-anchor-point"></a>
-[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+GitHub Docs [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-`#FF0000` `#00FF00` `#0000FF` `#FFFF00` `#FF00FF` `#0000FF` `#FFFFFF`  \
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+`#0969DA`
+
 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 \
 🟥🟩🟦🟪🟨🟧🟫⬜⬛🔲🔳 \
 🔴🟢🔵🟣🟡🟠🟤⚪⚫ \
@@ -302,6 +304,9 @@ https://github.com/Ee-Cs/cs/blob/main/README.md
 > Advises about risks or negative outcomes of certain actions.
 
 Hard line break - add \ or two spaces at the end of line  
+
+The visualization of the color is only supported in issues, pull requests, and discussions. \
+`#FF0000` `#00FF00` `#0000FF` `#FFFF00` `#FF00FF` `#0000FF` `#FFFFFF`
 
 CSS styles are not active in GitHub :warning:
 <span style="color:red">red</span>  
