@@ -1,11 +1,17 @@
-# One Hash Line
-## Two Hashes Line
-### Three Hashes Line
-#### Four Hashes Line
-##### Five Hashes Line
-Line Without Hashes \
-Line Without Hashes # comment
+# A first-level heading (One Hash Line)
+## A second-level heading (Two Hashes Line)
+### A third-level heading (Three Hashes Line)
+#### A fourth-level heading (Four Hashes Line)
+##### A fifth-level heading (Five Hashes Line)
+###### A six-level heading (Six Hashes Line)
+Line **Without** Hashes <sub>Subscript</sub> <sup>Superscript</sup> <ins>Underline</ins> \
+Line *Without* Hashes
 
+<!-- This content will not appear in the rendered Markdown -->
+<a name="my-custom-anchor-point"></a>
+[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+`#FF0000` `#00FF00` `#0000FF` `#FFFF00` `#FF00FF` `#0000FF` `#FFFFFF`  \
 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 \
 🟥🟩🟦🟪🟨🟧🟫⬜⬛🔲🔳 \
 🔴🟢🔵🟣🟡🟠🟤⚪⚫ \
@@ -25,7 +31,9 @@ abcdefghijklmnopqrstuvwxyz \
 𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃 \
 𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩 \
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ \
-The last line with '\' character at the end of line. \
+The last line with '\\' character at the end of line. \
+
+Line with \n\tbreak.
 
 https://github.com/Ee-Cs/cs/blob/main/README.md
 
@@ -278,6 +286,21 @@ https://github.com/Ee-Cs/cs/blob/main/README.md
 <details>
 <summary>Learning GitHub Flavored Markdown</summary>
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
 Hard line break - add \ or two spaces at the end of line  
 
 CSS styles are not active in GitHub :warning:
@@ -291,6 +314,8 @@ CSS styles are not active in GitHub :warning:
 <span style="color:brown">brown</span>  
 <span style="color:gray">gray</span>  
 </details>
+
+[A link to that custom anchor](#my-custom-anchor-point)
 
 To download `SHASUMS256.txt` using `curl`:
 ```bash
