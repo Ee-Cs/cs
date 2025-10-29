@@ -4,8 +4,9 @@
 #### A fourth-level heading (Four Hashes Line)
 ##### A fifth-level heading (Five Hashes Line)
 ###### A six-level heading (Six Hashes Line)
-Line **Without** Hashes <sub>Subscript</sub> <sup>Superscript</sup> <ins>Underline</ins> \
-Line *Without* Hashes
+1st line **bold** *italic* <sub>Subscript</sub> <sup>Superscript</sup> <ins>Underline</ins> \
+2nd line \
+3rd line
 
 <!-- This content will not appear in the rendered Markdown -->
 <a name="my-custom-anchor-point"></a>
@@ -31,8 +32,6 @@ abcdefghijklmnopqrstuvwxyz \
 𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩 \
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ \
 The last line with '\\' character at the end of line. \
-
-Line with \n\tbreak.
 
 https://github.com/Ee-Cs/cs/blob/main/README.md
 
@@ -302,6 +301,16 @@ CSS styles are not active in GitHub :warning:
 <span style="color:gray">gray</span>  
 </details>
 
+JSON
+```json
+{
+  "a" : [
+    {
+      "b" : "c"
+    }
+  ]
+}
+```
 To download `SHASUMS256.txt` using `curl`:
 ```bash
 curl -O https://nodejs.org/dist/vx.y.z/SHASUMS256.txt
